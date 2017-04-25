@@ -4,12 +4,5 @@
 	"feed_url": "http://michal.micro.blog/feed.json",
 	"items": [
 		
-		{
-			"id": "http://michal.micro.blog/2017/04/25/starting-my-microblog.html",
-			"content_html": "<p>Starting my micro.blog journey today. Two days after deleting Facebook and Twitter and Slack from my phone. I hope this space will have less noise and more value than other networks. Good luck @manton </p>\n",
-			"date_published": "2017-04-25T19:55:00+00:00",
-			"url": "http://michal.micro.blog/2017/04/25/starting-my-microblog.html"
-		}
-		
 	]
 }
