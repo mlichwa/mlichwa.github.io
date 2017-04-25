@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Michal Lichwa</title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/custom.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Microblog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/stylesheets/global.css">
 
   <link rel="alternate" type="application/rss+xml" title="Michal Lichwa" href="http://michal.micro.blog/feed.xml" />
   <link rel="alternate" type="application/json" title="Michal Lichwa" href="http://michal.micro.blog/feed.json" />
@@ -20,40 +21,41 @@
   <link rel="micropub" href="https://micro.blog/micropub" />
   <link rel="webmention" href="https://micro.blog/webmention" />
 </head>
-<body>
-  <div class="container">
-    <header class="masthead">
-  <h1 class="masthead-title">
-    <a href="/">Michal Lichwa<span>&#39;s microblog</span></a>
-  </h1>
-  <nav class="masthead-nav">
+
+
+  <body class="home">
+
     
-    <a href="/about/"></a>
-    
-    <a href="/feed.xml"></a>
-    
-  </nav>
+      <header class="header" role="banner">
+  <figure class="avatar">
+    <img src="http://www.gravatar.com/avatar/09877b8a197619116d4448ec85b6c8ca?s=160" alt="Michal Lichwa">
+  </figure>
+  <h1 class="site__name">Michal Lichwa</h1>
+<!--  <h2 class="site__bio"></h2> -->
+<!--  <a href="#" class="button button--primary">Subscribe</a> -->
 </header>
-<div class="content list h-feed">
 
+    
 
-  <div class="list-item h-entry">
-    <div class="content post e-content">
+    <main class="main__content" role="main">
+      <section class="posts">
+  
+    <article class="post">
       <p>Starting my micro.blog journey today. Two days after deleting Facebook and Twitter and Slack from my phone. I hope this space will have less noise and more value than other networks. Good luck @manton </p>
 
-    </div>
-    <div class="list-post-date">
-      <a href="/2017/04/25/starting-my-microblog.html" class="u-url"><time class="dt-published" datetime="2017-04-25 19:55:00 +0000">25 Apr 2017</time></a>
-    </div>
-  </div>
+      <footer class="post__footer">
+        <small><time datetime="2017-04-25T19:55:00+00:00"><a href="/2017/04/25/starting-my-microblog.html" title="Permalink to Microblog post">Tue, Apr 25, 2017 at 07:55pm</time></a></small>
+      </footer>
+    </article>
+  
+</section>
 
+    </main>
 
-</div>
-
-<footer class="site-footer">
-	<p class="text">Powered by <a href="http://micro.blog/">Micro.blog</a>.</p>
+    <footer class="footer " role="contentinfo">
+  <small class="copyright">&copy; 2017 <a href="http://michal.micro.blog">Michal Lichwa</a>. Powered by <a href="http://micro.blog/">Micro.blog</a>.</small>
 </footer>
 
-  </div>
-</body>
+
+  </body>
 </html>
