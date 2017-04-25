@@ -7,8 +7,8 @@
 # - permalink: /:year/:month/:slug/
 title: "Michal Lichwa"
 tagline: ""
-description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-credits: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+description: "Powered by <a href="http://micro.blog/">Micro.blog</a>."
+credits: "Powered by <a href="http://micro.blog/">Micro.blog</a>."
 baseurl: ""
 url: "http://michal.micro.blog"
 markdown: "kramdown"
