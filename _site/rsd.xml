@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsd xmlns="http://archipelago.phrasewise.com/rsd" version="1.0">
+	<service>
+		<engineName>Micro.blog</engineName>
+		<engineLink>http://micro.blog/</engineLink>
+		<homePageLink>http://micro.blog/</homePageLink>
+		<apis>
+			<api name="Blogger" blogID="0" preferred="true" apiLink="http://micro.blog/xmlrpc"/>
+		</apis>
+	</service>
+</rsd>
