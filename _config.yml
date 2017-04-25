@@ -1,0 +1,45 @@
+# Site settings
+# - title: [TITLE]
+# - description: ""
+# - base# - url: "[PATH]" # e.g. /manton or /az/azasdfasdf
+# - url: "http://[HOSTNAME]" # the base hostname & protocol for your site
+# - user# - name: "[USERNAME]"
+
+# - author:
+  full# - name: "[USERNAME]"
+#  googleplus: https://www.google.com/+MotaquillahMaddane
+#  github: kronik3r
+#  twitter: electrik_frog
+  # disqus: your_disqus_forum_shortname
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
+
+# Build settings
+highlighter: null
+# - markdown: kramdown
+
+title: "Michal Lichwa"
+tagline: ""
+description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+credits: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+baseurl: ""
+url: "http://michal.micro.blog"
+markdown: "kramdown"
+username: "michal"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: "false"
+author: "Michal Lichwa"
+name: "Michal Lichwa"
+gravatar_hash: "09877b8a197619116d4448ec85b6c8ca"
+avatar: "http://www.gravatar.com/avatar/09877b8a197619116d4448ec85b6c8ca?s=160"
+full_name: "Michal Lichwa"
+bio: ""
+twitter_username: ""
+github_username: ""
