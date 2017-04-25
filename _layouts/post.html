@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<div class="h-entry">
-{% include post/title.html %}
+<div class="post">
 
-<div class="content e-content">
-    {{ content }}
-</div>
+  <header class="post-header">
+    <p class="post-meta"><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
 
-{% include post/about.html %}
+  <article class="post-content e-content">
+  	<h2>
+	{{ content }}
+	</h2>
+  </article>
 
-{% include externals/disqus.html %}
 </div>
