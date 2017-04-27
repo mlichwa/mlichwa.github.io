@@ -3,20 +3,20 @@
 # # # # # # # #
 
 # Basic
-# - name: "[TITLE]"
+# - # - name: "[TITLE]"
 
-# - title: "[TITLE]"
-# - description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-# - base# - url: "[PATH]" # e.g. /manton or /az/azasdfasdf
-# - url: "http://[HOSTNAME]" # the base hostname & protocol for your site
-# - markdown: kramdown
-# - user# - name: "[USERNAME]"
+# - # - title: "[TITLE]"
+# - # - description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+# - base# - # - url: "[PATH]" # e.g. /manton or /az/azasdfasdf
+# - # - url: "http://[HOSTNAME]" # the base hostname & protocol for your site
+# - # - markdown: kramdown
+# - user# - # - name: "[USERNAME]"
 
 # Navigation
 nav:
-  - # - name:           "About"
+  - # - # - name:           "About"
     href:           "/about/"
-  - # - name:           "RSS"
+  - # - # - name:           "RSS"
     href:           "/feed.xml"
 
 # Sass
@@ -38,6 +38,24 @@ defaults:
     values:
       layout:       "post"
 
+# - title: "Michal Lichwa"
+# - tagline: ""
+# - description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+# - credits: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+# - base# - url: ""
+# - url: "http://michal.micro.blog"
+# - markdown: "kramdown"
+# - user# - name: "michal"
+# - permalink: "/:year/:month/:day/:title.html"
+# - relative_permalinks: false
+# - author: "Michal Lichwa"
+# - name: "Michal Lichwa"
+# - gravatar_hash: "09877b8a197619116d4448ec85b6c8ca"
+# - avatar: "http://www.gravatar.com/avatar/09877b8a197619116d4448ec85b6c8ca?s=160"
+full_# - name: "Michal Lichwa"
+# - bio: ""
+twitter_# - user# - name: ""
+github_# - user# - name: ""
 title: "Michal Lichwa"
 tagline: ""
 description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
