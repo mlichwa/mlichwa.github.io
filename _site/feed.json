@@ -4,5 +4,12 @@
 	"feed_url": "http://michal.micro.blog/feed.json",
 	"items": [
 		
+		{
+			"id": "http://michal.micro.blog/2017/04/27/im-deep-in.html",
+			"content_html": "<p>I’m deep in the Javascript world right now. It’s been fun and a bit weird. JS is flexible and has an easy syntax… which is great. On the other hand, the language the lack of classes makes it harder to produce a well structured code…</p>\n",
+			"date_published": "2017-04-27T14:44:00+00:00",
+			"url": "http://michal.micro.blog/2017/04/27/im-deep-in.html"
+		}
+		
 	]
 }
