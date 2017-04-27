@@ -1,31 +1,10 @@
-# Dependencies
-# - markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-# - permalink:        pretty
-# - relative_permalinks: true
-
-# Setup
-# - title:            '[TITLE]'
-# - tagline:          'A Jekyll theme'
-# - description:      "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-# - url:              "http://[HOSTNAME]"
-# - base# - url:          "[PATH]"
+# - title: "[TITLE]"
+# - description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+# - base# - url: "[PATH]" # e.g. /manton or /az/azasdfasdf
+# - url: "http://[HOSTNAME]" # the base hostname & protocol for your site
+# - markdown: kramdown
 # - user# - name: "[USERNAME]"
-
-# - author:
-  # - name:           'Mark Otto'
-  # - url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
-
+# - permalink: /:year/:month/:slug/
 title: "Michal Lichwa"
 tagline: ""
 description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
