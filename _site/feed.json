@@ -5,6 +5,13 @@
 	"items": [
 		
 		{
+			"id": "http://michal.micro.blog/2017/04/28/there-are-two.html",
+			"content_html": "<p>There are two recurring patterns we’ve noticed this year. First one is shitty internet. I’ve worked at a place where the only way to get wifi on my laptop was to turn off wifi on my phone…. Second shit show happening around us is the weather. It’s cold and rains wherever we go.</p>\n",
+			"date_published": "2017-04-28T20:22:00+00:00",
+			"url": "http://michal.micro.blog/2017/04/28/there-are-two.html"
+		},
+		
+		{
 			"id": "http://michal.micro.blog/2017/04/27/im-deep-in.html",
 			"content_html": "<p>I’m deep in the Javascript world right now. It’s been fun and a bit weird. JS is flexible and has an easy syntax… which is great. On the other hand, the language the lack of classes makes it harder to produce a well structured code…</p>\n",
 			"date_published": "2017-04-27T14:44:00+00:00",
